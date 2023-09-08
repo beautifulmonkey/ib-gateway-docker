@@ -1,5 +1,7 @@
 # ib-gateway-docker
 
+增加了TWS自动重启以及适配了最新版IB网关的IBC
+
 This builds a Docker image with the latest version of [Interactive Brokers](https://interactivebrokers.com)' [IB Gateway](https://www.interactivebrokers.com/en/index.php?f=5041), the modern [IbcAlpha/IBC](https://github.com/IbcAlpha/IBC) for automation, and a VNC server for debugging purposes.
 
 **Currently, the API is only enabled in read-only mode**, for testing purposes.
